@@ -13,3 +13,4 @@ The current state of the art for cifar100 is 75.7 %
 The best result of this project is 0 % 
 But it is still a work in progress.
 
+rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html
