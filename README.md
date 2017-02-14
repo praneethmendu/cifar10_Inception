@@ -17,7 +17,7 @@ clone this repo with
 git clone https://github.com/praneethmendu/cifarInception.git
 ```
 Run the script [download.py](download.py) to download and extract the datasets or download them from [ Alex Krizhevsky's page](https://www.cs.toronto.edu/~kriz/cifar.html) and extract manually into the main folder.
-To perform a check or view some of the datasets images use (print_examples.py)[print_examples.py].
+To perform a check or view some of the datasets images use [print_examples.py](print_examples.py).
 
 Now you can run [hundred.ipynb](hundred.ipynb) and [ten.ipynb](ten.ipynb). Edit [model.csv](model.csv) to change the sizes of individual filers in different inception modules.
 
