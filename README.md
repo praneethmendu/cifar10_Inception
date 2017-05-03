@@ -3,7 +3,7 @@
 
 **Aims**
 
-This is my attempt to learn how to optimize time taken to train neural networks, which is the biggest bottleneck in deep learning today. I aim to accomplish this in 2 ways:
+This is my attempt to learn optimizing time taken to train neural networks, which is the biggest bottleneck in deep learning today. I aim to accomplish this in 2 ways:
 * Using a light-weight architecture like inception
 * configure all libraries/tools to optimize system usage.
 
