@@ -2,11 +2,13 @@
 **an implementation of Inception architecture on the cifar dataset in tensorflow**
 
 **Aims**
+
 This is my attempt to learn how to optimize time taken to train neural networks, which is the biggest bottleneck in deep learning today. I aim to accomplish this in 2 ways:
 * Using a light-weight architecture like inception
 * configure all libraries/tools to optimize system usage.
 
 **Backround**
+
 Though the Inception architecture was implemented on the ILSVRC14 dataset which has an average resolution of 400 x 400, the algorithm compresses it to 224 x 224 and most of the Inception modules are implemented on tensors of size 34 x 34 x depth and 17 x 17 x depth.
 
 This suggests that the 32 x 32 x 3 sized cifar dataset may not be too small for this architecture. Anyhow this claim is highly speculative and can only be supported by rigorous trial and error. The code is designed to be as modular as possible with most of the model defined in an accompanying CSV file.
@@ -15,7 +17,7 @@ My main motivation for this project is that the dataset is small enough for a CP
 
 The current state of the art for cifar10 is 96.5 %
 
-#Performance
+# Performance
 This model is built on top of the [default cifar CNN](https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10) published by Tensorflow. The following system was used to run this model:
 * Nvidia GeForce GTX 1060 GPU
 * Intel i5-4440 Processor
@@ -26,7 +28,7 @@ This model is built on top of the [default cifar CNN](https://github.com/tensorf
 These results are obselet as a newer GPU architecture (pascal) is available
 
 **default model using standard configuration on mentioned system**
-
+86% in 70k steps took 84 minutes
 
 
 **guidelines to run locally**
